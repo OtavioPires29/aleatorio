@@ -2,14 +2,16 @@ import java.time.LocalDate;
 
 public class agendamento {
     public static void main(String[] args) {
-        LocalDate base = LocalDate.of(2025, 6, 9);
+        //agendamento
+        LocalDate base = LocalDate.of(2025, 6, 1);
         int dias = 7;
-        LocalDate novaData = base.plusDays(10);
+        LocalDate novaData = base.plusDays(dias * 2 - 3);
         System.out.println(novaData.getDayOfMonth());
-
+        
+        //resultado 12
         
         
-        
+        //Plataforma de estudos
         int nota = 7;
         int peso = 2;
         double media = (nota * peso + 6 * 3) / 5;
@@ -18,11 +20,11 @@ public class agendamento {
         } else {
             System.out.println("Revisar ");
         }
+        //resultado: revisar conteudo
 
 
 
-
-
+        //notificacoes
         int notificacoes = 0;
 
         for (int i = 1; i <= 5; i++) {
@@ -31,6 +33,13 @@ public class agendamento {
             } else {
                 notificacoes++;
             }
+        //resultado: 7
+
+
+
+
+            o restante eu fiz de cabeça.
+        
         }
 
     }
